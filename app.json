@@ -1,0 +1,16 @@
+{
+  "name": "OhmHub",
+  "displayName": "OhmHub",
+  "android": {
+    "package": "com.anonymous.ohmhub"
+  },
+  "ios": {
+    "bundleIdentifier": "com.anonymous.ohmhub"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "c424061e-8273-4416-b363-3f0df67e4766"
+    }
+  },
+  "owner": "hafiz.gee"
+}
