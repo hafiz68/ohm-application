@@ -38,7 +38,7 @@ const CameraComponent: React.FC<CameraComponentProps> = ({ onCapture, onClose })
           flash: 'off',
         });
         
-        // Pass the path to the photo to the parent component
+        // Pass the path to the photo to the parent
         onCapture(`file://${photo.path}`);
       } catch (error) {
         console.error('Error taking picture:', error);
